@@ -1,2 +1,3 @@
+A new line has appeared!
 Here be text!
 Now in two separate lines.
