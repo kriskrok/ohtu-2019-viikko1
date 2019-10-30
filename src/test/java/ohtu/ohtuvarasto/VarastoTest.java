@@ -130,7 +130,7 @@ public class VarastoTest {
 
         varasto.otaVarastosta(9);
 
-        assertEquals(10, varasto.paljonkoMahtuu(), vertailuTarkkuus);
+        assertEquals(-10, varasto.paljonkoMahtuu(), vertailuTarkkuus);
     }
 
     @Test
