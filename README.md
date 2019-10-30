@@ -1,7 +1,11 @@
 # ohtu-2019-viikko1
 
-***
-[![CircleCI](https://circleci.com/gh/kriskrok/ohtu-2019-viikko1.svg?style=svg)](https://circleci.com/gh/kriskrok/ohtu-2019-viikko1)
+
+<p align="center">
+  <img src="https://circleci.com/gh/kriskrok/ohtu-2019-viikko1.svg" alt="CircleCI">
+  <img src="https://codecov.io/gh/kriskrok/ohtu-2019-viikko1/branch/master/graph/badge.svg" alt="codecov">
+</p>
+
 ***
 ![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
 
