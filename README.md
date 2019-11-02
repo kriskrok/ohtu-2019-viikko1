@@ -7,7 +7,7 @@
 </p>
 
 ***
-[ohtu-tehtavat-viikko1](https://github.com/kriskrok/ohtu-2019-viikko1)
+[viikko1-tehtavat_14-16](https://github.com/kriskrok/ohtu-2019-tehtavat)
 
 ![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
 
