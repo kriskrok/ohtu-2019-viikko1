@@ -2,8 +2,7 @@ plugins:
   checkstyle:
     enabled: true
     config:
-      file: "checkstyle.xml"
+      file: "**/checkstyle.xml"
 
-exclude_paths:
-- **/main/*
+exclude_paths: "**/main/*"
 
