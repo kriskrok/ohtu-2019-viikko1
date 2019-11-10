@@ -4,5 +4,5 @@ plugins:
     config:
       file: "config/checkstyle/checkstyle.xml"
 
-exclude_patterns:
-- "**/main/*"
+exclude_paths:
+- "src/main/java/main/**"
