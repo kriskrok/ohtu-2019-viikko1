@@ -2,8 +2,8 @@ plugins:
   checkstyle:
     enabled: true
     config:
-      file: "**/checkstyle.xml"
+      file: "config/checkstyle/checkstyle.xml"
 
 exclude_patterns:
-- "src/main/java/main/*"
+- "src/main/java/main/Main.java"
 
