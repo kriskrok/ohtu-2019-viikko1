@@ -7,8 +7,7 @@ public class Varasto {
     private double saldo;     // paljonko varastossa on nyt, >= 0
 
     // --- konstruktorit: ---
-    public Varasto(double tilavuus) // tilavuus on annettava
-        {
+    public Varasto(double tilavuus) { // tilavuus on annettava
         if (tilavuus > 0.0) {
             this.tilavuus = tilavuus;
         } else { // virheellinen, nollataan
@@ -29,14 +28,6 @@ public class Varasto {
             this.saldo = 0.0;
         } else {
             this.saldo = Math.min(alkuSaldo, tilavuus); // täyteen ja ylimäärä hukkaan!
-        }
-    }
-
-    public void generateError() {
-        for( int i=0; i<1; i++ ) {
-            for( int j=0; i<j; j++ ) {
-                System.out.println("virhe");
-            }
         }
     }
 
