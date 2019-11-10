@@ -6,6 +6,10 @@
  * user guide available at https://guides.gradle.org/creating-new-gradle-builds/
  */
 
+plugins {
+    id 'checkstyle'
+}
+
 // Apply the java plugin to add support for Java
 apply plugin: 'java'
 //Apply the JaCoCO plugin to add support for JaCoCo
@@ -38,13 +42,17 @@ jar {
     }
 }
 
+tasks.withType(Checkstyle) {
+    exclude '**/main/Main.java'
+}
+
 jacocoTestReport {
     reports {
         xml.enabled true
         html.enabled true
     }
     afterEvaluate {
-        classDirectories = files(classDirectories.files.collect {
+        classDirectories.from = files(classDirectories.files.collect {
             fileTree(dir: it,
                     exclude: ['main/**'])
         })
